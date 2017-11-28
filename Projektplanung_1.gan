@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-10-16" view-index="0" gantt-divider-location="366" resource-divider-location="300" version="2.8.5" locale="de_DE">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Vorgang" width="189" order="0"/>
+        <field id="tpd4" name="Anfang" width="87" order="1"/>
+        <field id="tpd5" name="Ende" width="86" order="2"/>
+        <timeline><![CDATA[0,59,25,5,28,36,40,7,38,4,14,9,42,16,44,34]]></timeline>
+        <option id="color.recent"><![CDATA[#ff9933 #ffff00 #33cc00 #f4f4f4 #ff3333 #3333ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Ressource" width="210" order="0"/>
+        <field id="1" name="Rolle" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="5" name="EMB" color="#ff3333" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2017-11-27" duration="5" complete="0" priority="2" expand="true">
+            <notes><![CDATA[In der EMB-Woche wird kein Treffen möglich sein 
+- Keine Projektarbeit]]></notes>
+        </task>
+        <task id="16" name="Weihnachtspause" color="#ff3333" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2017-12-25" duration="10" complete="0" expand="true">
+            <notes><![CDATA[In der Vorlesungsfreien Zeit vom 23.12.2017 - 07.01.2018 individuelle Bearbeitung der Grupppenmitlgieder.]]></notes>
+        </task>
+        <task id="0" name="erstes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2017-11-21" duration="1" complete="0" thirdDate="2017-11-21" thirdDate-constraint="1" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Erstellung Benutzeroberfläche
+Zeitmanagement(Projektplanung)
+
+
+]]></notes>
+        </task>
+        <task id="97" name="Puffer" color="#ff9933" meeting="false" start="2017-11-23" duration="8" complete="0" expand="true">
+            <notes><![CDATA[Zeit für kleinere Aufgabne und Problemstellungen.]]></notes>
+        </task>
+        <task id="4" name="erste Abgabe" color="#3333ff" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="true" start="2017-11-23" duration="0" complete="1" priority="2" expand="true">
+            <notes><![CDATA[Protokoll fortsetzen
+Überprüfung der Abgabematerialien
+Erstgabe]]></notes>
+        </task>
+        <task id="36" name="zweites Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2017-12-05" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Einteilung der Aufgaben: PAP, NSD, Sensor-Ansteuerung, Datenstruktur
+gemeinsames Beginnen mit der Lösung
+
+]]></notes>
+        </task>
+        <task id="59" name="Aufgaben" color="#8cb6ce" meeting="false" start="2017-12-06" duration="4" complete="0" expand="true">
+            <notes><![CDATA[Ersten individuellen Aufgaben.]]></notes>
+        </task>
+        <task id="38" name="drittes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2017-12-12" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Zusammentragen der Lösungen.
+Troubleshooting
+
+
+
+]]></notes>
+        </task>
+        <task id="9" name="zweite Abgabe" color="#3333ff" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="true" start="2017-12-14" duration="0" complete="1" priority="2" expand="true">
+            <notes><![CDATA[Protokoll
+________________
+Sensor-Interpretation 
+PAP/NSD
+Datenstruktur
+]]></notes>
+        </task>
+        <task id="100" name="Puffer" color="#ff9933" meeting="false" start="2017-12-15" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Zeit für kleinere Aufgabne und Problemstellungen.]]></notes>
+        </task>
+        <task id="34" name="viertes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2017-12-19" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Einteilen der Aufgaben: Algebraische und graphische Lösung der inversen Kinematik.
+gemeinsames Beginnen mit der Lösung.
+
+
+]]></notes>
+        </task>
+        <task id="67" name="Aufgaben" color="#8cb6ce" meeting="false" start="2017-12-20" duration="14" complete="0" expand="true">
+            <notes><![CDATA[zweite individuelle Aufgaben]]></notes>
+        </task>
+        <task id="40" name="fünftes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2018-01-09" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Zusammentragen der Lösungen.
+Troubleshooting.
+
+
+]]></notes>
+        </task>
+        <task id="7" name="dritte Abgabe" color="#3333ff" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="true" start="2018-01-11" duration="0" complete="1" priority="2" expand="true">
+            <notes><![CDATA[Protokoll
+___________________
+Algebraische Lösung]]></notes>
+        </task>
+        <task id="103" name="Puffer" color="#ff9933" meeting="false" start="2018-01-12" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Zeit für kleinere Aufgabne und Problemstellungen.]]></notes>
+        </task>
+        <task id="42" name="sechstes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2018-01-16" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Einteilen der Aufgaben: Programmcode und dokumentation.
+gemeinsames Beginnen mit der Lösung.
+
+
+
+]]></notes>
+        </task>
+        <task id="69" name="Aufgaben" color="#8cb6ce" meeting="false" start="2018-01-17" duration="9" complete="0" expand="true">
+            <notes><![CDATA[dritte individuelle Aufgaben]]></notes>
+        </task>
+        <task id="44" name="siebtes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2018-01-23" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Zusammentragen der bisherigen Lösungen.
+Troubleshooting.
+
+
+]]></notes>
+        </task>
+        <task id="46" name="achtes Treffen" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2018-01-30" duration="1" complete="1" thirdDate="2017-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Protokoll
+Klärung der wichtigen Aufgaben
+______________
+Zusammentragen Lösungen.
+Troubleshooting und finalisieren der Programmcodes.
+
+
+
+]]></notes>
+        </task>
+        <task id="14" name="Finalabgabe" color="#3333ff" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="true" start="2018-02-01" duration="0" complete="1" priority="4" expand="true">
+            <notes><![CDATA[Protokoll
+_______________
+Programmcode
+Dokumentation
+]]></notes>
+        </task>
+        <task id="28" name="Präsentationsvorbereitung" color="#33cc00" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2018-01-29" duration="7" complete="1" priority="2" expand="true">
+            <notes><![CDATA[Präsentationsvorbereitung - Erstellung evtl. Powerpoint ]]></notes>
+        </task>
+        <task id="25" name="Präsentation" color="#33cc00" meeting="true" start="2018-02-08" duration="0" complete="0" expand="true">
+            <notes><![CDATA[Präsentation]]></notes>
+        </task>
+        <task id="91" name="unregelmäßige Treffen" color="#ffff00" meeting="false" start="2017-12-04" duration="41" complete="0" expand="true">
+            <notes><![CDATA[unregelmäßige Treffen nach Absprache]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
