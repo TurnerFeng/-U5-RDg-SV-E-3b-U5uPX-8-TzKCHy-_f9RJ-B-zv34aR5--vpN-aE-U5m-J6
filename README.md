@@ -1,10 +1,11 @@
 # PST-Project
 A Group-Project for University. Please dont send any pull request we are not allowed to get any external help. Thank You
 
+
 Important advices: 
 
--make sure that you create a 'branch' of the project
--You cant add a empty folder to GitHub
+-make sure that you create a 'branch' of the project                                                                                       
+-You can't add a empty folder to GitHub
 
 | First Header  | Second Header |
 | ------------- | ------------- |
